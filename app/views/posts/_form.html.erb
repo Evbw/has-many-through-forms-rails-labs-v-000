@@ -14,3 +14,7 @@
   <%= f.fields_for :comments, post.comments.build do |comments_fields| %>
     <%= comments_fields.text_field :name %>
   <% end %>
+
+  <% f.submit %>
+
+<% end %>
